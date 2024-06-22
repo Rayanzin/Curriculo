@@ -7,11 +7,39 @@
 }
 main{
     display: flex;
-    width: 600px;
-    margin: auto;
+    width: 750px;
     padding: 20px;
+    margin: auto;
     gap: 100px;
 }
-section{
-    width: 50%;
+main p{
+    font-size: 18px;
 }
+main h2{
+    font-size: 24px;
+    padding: 10px 0px;
+}
+main h3{
+     color: rgb(76, 114, 129);
+     font-size: 20px;
+     padding: 40px 0px;
+}
+#sec1{
+    width: 400px;
+}
+#sec2{
+    width: 250px;
+}
+section ul{
+    list-style: none;
+}
+#experiencia{
+    margin-bottom: 20px;
+}
+.projetos{
+    margin-bottom: 30px;
+}
+#educacao li{
+    padding: 2px 0px;
+}
+
