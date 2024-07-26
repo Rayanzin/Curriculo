@@ -5,6 +5,11 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+:root{
+    --html:#eca31b;
+    --css:#2fbae9;
+    --js:#e7e722;
+}
 main{
     display: flex;
     width: 750px;
@@ -41,5 +46,14 @@ section ul{
 }
 #educacao li{
     padding: 2px 0px;
+}
+.html{
+    color: var(--html);
+}
+.css{
+    color: var(--css);
+}
+.js{
+    color: var(--js);
 }
 
